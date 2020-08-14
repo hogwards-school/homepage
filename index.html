@@ -1,33 +1,201 @@
-
 <!DOCTYPE html>
-<html class="no-js">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="csrf-token" content="">
-    <meta name="renderer" content="webkit">
-    <link rel="icon" href="/favicon.ico?v=2" />
-    <title>主页 | 霍格沃茨魔法学校·Hogwards</title>
-    <link rel="stylesheet" href="https://cdn.luogu.com.cn/youti-fe/loader.css?ver=20190912" />
-    <script>
-        window._feInjection = JSON.parse(decodeURIComponent("%7B%22code%22%3A200%2C%22currentTemplate%22%3A%22problemset.list%22%2C%22currentData%22%3A%7B%22problemsets%22%3A%7B%22result%22%3A%5B%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1001%2C%22name%22%3A%22NOIP%202007%20%5Cu666e%5Cu53ca%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2007pj%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A32.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1002%2C%22name%22%3A%22NOIP%202007%20%5Cu63d0%5Cu9ad8%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2007tg%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A32.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1003%2C%22name%22%3A%22NOIP%202008%20%5Cu666e%5Cu53ca%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2008pj%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A32.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1004%2C%22name%22%3A%22NOIP%202008%20%5Cu63d0%5Cu9ad8%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2008tg%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A32.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1005%2C%22name%22%3A%22NOIP%202009%20%5Cu666e%5Cu53ca%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2009pj%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A32.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1006%2C%22name%22%3A%22NOIP%202009%20%5Cu63d0%5Cu9ad8%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2009tg%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A33.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1007%2C%22name%22%3A%22NOIP%202010%20%5Cu666e%5Cu53ca%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2010pj%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A32.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A29%2C%22id%22%3A1008%2C%22name%22%3A%22NOIP%202010%20%5Cu63d0%5Cu9ad8%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2010tg%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A33.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1009%2C%22name%22%3A%22NOIP%202011%20%5Cu666e%5Cu53ca%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2011pj%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A32.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1010%2C%22name%22%3A%22NOIP%202011%20%5Cu63d0%5Cu9ad8%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2011tg%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A33.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1011%2C%22name%22%3A%22NOIP%202012%20%5Cu666e%5Cu53ca%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2012pj%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A32.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1012%2C%22name%22%3A%22NOIP%202012%20%5Cu63d0%5Cu9ad8%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2012tg%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A33.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1013%2C%22name%22%3A%22NOIP%202013%20%5Cu666e%5Cu53ca%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2013pj%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A32.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1014%2C%22name%22%3A%22NOIP%202013%20%5Cu63d0%5Cu9ad8%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2013tg%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A33.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1015%2C%22name%22%3A%22NOIP%202014%20%5Cu666e%5Cu53ca%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2014pj%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A33.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1016%2C%22name%22%3A%22NOIP%202014%20%5Cu63d0%5Cu9ad8%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2014tg%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A34.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1017%2C%22name%22%3A%22NOIP%202015%20%5Cu666e%5Cu53ca%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2015pj%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A33.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1018%2C%22name%22%3A%22NOIP%202015%20%5Cu63d0%5Cu9ad8%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2015tg%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A34.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1019%2C%22name%22%3A%22NOIP%202016%20%5Cu666e%5Cu53ca%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2016pj%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A33.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1020%2C%22name%22%3A%22NOIP%202016%20%5Cu63d0%5Cu9ad8%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2016tg%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A34.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1021%2C%22name%22%3A%22NOIP%202017%20%5Cu666e%5Cu53ca%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2017pj%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A33.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A28%2C%22id%22%3A1022%2C%22name%22%3A%22NOIP%202017%20%5Cu63d0%5Cu9ad8%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22noip2017tg%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A34.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A17%2C%22id%22%3A1023%2C%22name%22%3A%22%5Cu6d59%5Cu6c5f%5Cu666e%5Cu901a%5Cu9ad8%5Cu7b49%5Cu5b66%5Cu6821%5Cu62db%5Cu751f%5Cu5168%5Cu56fd%5Cu7edf%5Cu4e00%5Cu8003%5Cu8bd52015B%20%5Cu4fe1%5Cu606f%5Cu6280%5Cu672f%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22zjgk2015B%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A34.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A17%2C%22id%22%3A1024%2C%22name%22%3A%22%5Cu6d59%5Cu6c5f%5Cu666e%5Cu901a%5Cu9ad8%5Cu7b49%5Cu5b66%5Cu6821%5Cu62db%5Cu751f%5Cu5168%5Cu56fd%5Cu7edf%5Cu4e00%5Cu8003%5Cu8bd52016A%20%5Cu4fe1%5Cu606f%5Cu6280%5Cu672f%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22zjgk2016A%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A34.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A17%2C%22id%22%3A1025%2C%22name%22%3A%22%5Cu6d59%5Cu6c5f%5Cu666e%5Cu901a%5Cu9ad8%5Cu7b49%5Cu5b66%5Cu6821%5Cu62db%5Cu751f%5Cu5168%5Cu56fd%5Cu7edf%5Cu4e00%5Cu8003%5Cu8bd52017A%20%5Cu4fe1%5Cu606f%5Cu6280%5Cu672f%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22zjgk2017A%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A34.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A17%2C%22id%22%3A1026%2C%22name%22%3A%22%5Cu6d59%5Cu6c5f%5Cu666e%5Cu901a%5Cu9ad8%5Cu7b49%5Cu5b66%5Cu6821%5Cu62db%5Cu751f%5Cu5168%5Cu56fd%5Cu7edf%5Cu4e00%5Cu8003%5Cu8bd52017B%20%5Cu4fe1%5Cu606f%5Cu6280%5Cu672f%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22zjgk2017B%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A34.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A17%2C%22id%22%3A1027%2C%22name%22%3A%22%5Cu6d59%5Cu6c5f%5Cu666e%5Cu901a%5Cu9ad8%5Cu7b49%5Cu5b66%5Cu6821%5Cu62db%5Cu751f%5Cu5168%5Cu56fd%5Cu7edf%5Cu4e00%5Cu8003%5Cu8bd52018A%20%5Cu4fe1%5Cu606f%5Cu6280%5Cu672f%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22zjgk2018A%22%2C%22createTime%22%3A%7B%22date%22%3A%222018-09-27%2023%3A59%3A34.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A23%2C%22id%22%3A1028%2C%22name%22%3A%22NOIP%202018%20%5Cu666e%5Cu53ca%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22NOIP%202018%20%5Cu666e%5Cu53ca%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22createTime%22%3A%7B%22date%22%3A%222019-08-03%2013%3A04%3A42.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A23%2C%22id%22%3A1029%2C%22name%22%3A%22NOIP%202018%20%5Cu63d0%5Cu9ad8%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%22%2C%22provider%22%3A%7B%22uid%22%3A256%2C%22name%22%3A%22lin_toto%22%2C%22email%22%3A%22lin_toto%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22NOIP%202018%20%5Cu63d0%5Cu9ad8%5Cu7ec4%5Cu521d%5Cu8d5b%5Cu8bd5%5Cu9898%5Cn%22%2C%22createTime%22%3A%7B%22date%22%3A%222019-08-03%2013%3A09%3A28.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A20%2C%22id%22%3A1030%2C%22name%22%3A%22CSP%202019%20%5Cu5165%5Cu95e8%5Cu7ec4%5Cu7b2c%5Cu4e00%5Cu8f6e%22%2C%22provider%22%3A%7B%22uid%22%3A1%2C%22name%22%3A%22kkksc03%22%2C%22email%22%3A%22kkksc03%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22csp2019rm%22%2C%22createTime%22%3A%7B%22date%22%3A%222019-12-11%2010%3A55%3A03.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%2C%7B%22bestScore%22%3Anull%2C%22problemCount%22%3A20%2C%22id%22%3A1031%2C%22name%22%3A%22CSP%202019%20%5Cu63d0%5Cu9ad8%5Cu7ec4%5Cu7b2c%5Cu4e00%5Cu8f6e%22%2C%22provider%22%3A%7B%22uid%22%3A1%2C%22name%22%3A%22kkksc03%22%2C%22email%22%3A%22kkksc03%22%2C%22roles%22%3A%5B%22ROLE_ADMIN%22%5D%2C%22backgroundUrl%22%3A%22https%3A%5C%2F%5C%2Fcdn.luogu.org%5C%2Fuser_bg.png%22%7D%2C%22duration%22%3A7200%2C%22description%22%3A%22csp2019tg%22%2C%22createTime%22%3A%7B%22date%22%3A%222019-12-11%2010%3A55%3A05.000000%22%2C%22timezone_type%22%3A3%2C%22timezone%22%3A%22Asia%5C%2FShanghai%22%7D%7D%5D%2C%22totalCount%22%3A31%7D%7D%2C%22currentUser%22%3Anull%7D"));
-        window._release = decodeURIComponent('20190912');
-            </script>
-    <script src="https://cdn.luogu.com.cn/youti-fe/loader.js?ver=20190912" charset="utf-8" defer></script>
+    <title>社团招新 | 南京外国语学校2020级高一交流</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/lxxx201103/homepage/master/201103ICON.png" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/semantic-ui/2.2.13/semantic.min.css">
+    <style type="text/css">
+        .hidden.menu {
+            display: none;
+        }
+        .masthead.segment {
+            min-height: 500px;
+            padding: 1em 0em;
+        }
+        .masthead .logo.item img {
+            margin-right: 1em;
+        }
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em;
+        }
+        .masthead h1.ui.header {
+            margin-top: 1em;
+            margin-bottom: 0em;
+            font-size: 5em;
+            font-weight: normal;
+        }
+        .masthead h2 {
+            font-size: 1.7em;
+            font-weight: normal;
+        }
+        .ui.vertical.stripe {
+            padding: 8em 0em;
+        }
+        .ui.vertical.stripe h3 {
+            font-size: 2em;
+        }
+        .ui.vertical.stripe .button + h3,
+        .ui.vertical.stripe p + h3 {
+            margin-top: 3em;
+        }
+        .ui.vertical.stripe .floated.image {
+            clear: both;
+        }
+        .ui.vertical.stripe p {
+            font-size: 1.33em;
+        }
+        .ui.vertical.stripe .horizontal.divider {
+            margin: 3em 0em;
+        }
+        .quote.stripe.segment {
+            padding: 0em;
+        }
+        .quote.stripe.segment .grid .column {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+        .footer.segment {
+            padding: 5em 0em;
+        }
+        .secondary.pointing.menu .toc.item {
+            display: none;
+        }
+        @media only screen and (max-width: 700px) {
+            .ui.fixed.menu {
+                display: none !important;
+            }
+            .secondary.pointing.menu .item,
+            .secondary.pointing.menu .menu {
+                display: none;
+            }
+            .secondary.pointing.menu .toc.item {
+                display: block;
+            }
+            .masthead.segment {
+                min-height: 350px;
+            }
+            .masthead h1.ui.header {
+                font-size: 2em;
+                margin-top: 1.5em;
+            }
+            .masthead h2 {
+                margin-top: 0.5em;
+                font-size: 1.5em;
+            }
+        }
+    </style>
+<script type="text/javascript">
+function show_info()
+  {
+  alert("欢迎访问该网站！")
+  }
+</script>
 </head>
-<body>
-<div id="app-header" style="font-family:KaiTi color:white">
-    <h1>
-        主页 | 霍格沃茨魔法学校·Hogwards
-    </h1>    
-</div>
-<nav id="app-sidenav">2</nav>
-<div id="app-body">
-    <div class="lg-container">
-        Hello！
+
+    <!-- Following Menu -->
+    <div class="ui large top fixed hidden menu">
+        <div class="ui container">
+            <a class="active item" style="font-family:KaiTi">社团招新</a>
+            <a class="item" target="_blank" href="https://hogwards-school.github.io/homepage/" style="font-family:KaiTi">主页（暂未开放）</a>
+            <a class="item" target="_blank" href="https://hogwards-school.github.io/announcements/" style="font-family:KaiTi">通知（暂未开放）</a>
+            <a class="item" target="_blank" href="https://hogwards-school.github.io/teams/" style="font-family:KaiTi">友情链接（暂未开放）</a>
+            <div class="right menu">
+                <div class="item">
+                    <a class="ui button" target="_blank" href="https://github.com/NFLS2020" style="font-family:Comic Sans MS">By：Ziyan Zhang</a>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-<footer id="app-footer"></footer>
+
+    <!-- Page Contents -->
+    <div class="pusher">
+        <div class="ui inverted vertical masthead center aligned segment">
+            <div class="ui container">
+                <div class="ui large secondary inverted pointing menu">
+                    <a class="active item" style="font-family:KaiTi">社团招新</a>
+                    <a class="item" target="_blank" href="https://hogwards-school.github.io/homepage/" style="font-family:KaiTi">主页（暂未开放）</a>
+                    <a class="item" target="_blank" href="https://hogwards-school.github.io/announcements/" style="font-family:KaiTi">通知（暂未开放）</a>
+                    <a class="item" target="_blank" href="https://hogwards-school.github.io/teams/" style="font-family:KaiTi">友情链接（暂未开放）</a>
+                    <div class="right item">
+                        <a class="ui inverted button" target="_blank" href="https://github.com/NFLS2020" style="font-family:Comic Sans MS">By：Ziyan Zhang</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ui text container">
+                <h1 class="ui inverted header" style="font-family:STXinWei">NFLS2020级·社团招新</h1>
+                <h2 style="font-family:STXinwei">
+                    By Ziyan Zhang
+                </h1>
+                <h1 style="font-size: 2em; font-family:Comic Sans MS">
+                    Keep on trying.
+                </h1>
+            </div>
+        </div>
+<body>
+    <br>
+    <div style="color:red">
+        <h1 style="font-family:KaiTi">NFLS社团招新中！</h1>
+    </div>
+    <br>
+    <div style="color:blue">
+        <h2 style="font-family:KaiTi">目前有下列社团可供同学们参考！</h2>
+    </div>
+    <br>
+    <div style="color:black">
+        <h2 style="font-family:STXinWei">本站欢迎NFLS2020级的新高一同学访问，以便告知关于社团招新的最新通知，请各位同学及时关注网页信息！</h2>
+    </div>
+    <br>
+    <h4 style="font-family:STXinWei" align="center">目前时间（根据您的电脑或手机时钟）</h4>
+    <h4 style="font-family:STXinWei" align="center"><span id="cg">2016/12/21 上午12:00:00</span></h4>
+    <script>
+    setInterval("cg.innerHTML=new Date().toLocaleString()",1000);
+    </script>
+    <input style="font-family:Comic Sans MS" type="button" onclick="show_info()" value="WELCOME" />
+<div class="ui inverted vertical footer segment">
+            <div class="ui container">
+                <div class="ui stackable inverted divided equal height stackable grid">
+                    <div class="three wide column">
+                        <h4 class="ui inverted header">Special Thanks</h4>
+                        <div class="ui inverted link list">
+                            <a href="https://www.codeforces.com" target="_blank" class="item">Codeforces</a>
+                            <a href="https://github.com/" target="_blank" class="item">Github</a>
+                        </div>
+                    </div>
+                    <div class="three wide column">
+                        <h4 class="ui inverted header">Other Websites</h4>
+                        <div class="ui inverted link list">
+                          <a href="https://NFLS-2020.github.io/homepage/"></a>
+                        </div>
+                    </div>
+                    <div class="seven wide column">
+                        <h4 class="ui inverted header">2019 © Lxxx201103</h4>
+                        <h4 class="ui inverted header">By Ziyan Zhang</h4>
+                        <p>By <a href="https://github.com/TouristDreamer" target="_blank">TouristDreamer (GitHub @TouristDreamer)</a>.</p>
+                        <p>Fork me on <a href="https://github.com/Cppplanet" target="_blank">Team Cppplanet</a>.</p>
+                        <p><script src="//s19.cnzz.com/z_stat.php?id=1265767215&web_id=1265767215"></script></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/semantic-ui/2.2.13/semantic.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.masthead').visibility({
+                once: false,
+                onBottomPassed: function() {
+                    $('.fixed.menu').transition('fade in');
+                },
+                onBottomPassedReverse: function() {
+                    $('.fixed.menu').transition('fade out');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
